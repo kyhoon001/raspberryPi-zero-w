@@ -13,7 +13,7 @@
 
 ### RC-Car
 
-![rc-car](img\car.jpg)
+![rc-car](img/car.jpg)
 
 - 목표 1: ServoMotor를 제어하여 왼쪽, 오른쪽으로 바퀴 방향 바꾸는 기능 구현
 - 목표 2: DcMotor를 제어하여 주어진 시간만큼 직진, 후진하는 기능 구현
@@ -22,11 +22,11 @@
 
 ### controller
 
-![01](img\controller.jpg)
+![01](img/controller.jpg)
 
-![02](img\KakaoTalk_20200616_193436493_02.jpg)
+![02](img/KakaoTalk_20200616_193436493_02.jpg)
 
-![03](img\UI.png)
+![03](img/UI.png)
 
 - 목표 1: Controller에서 보낸 명령을 RC-Car에서 실시간으로 받아 수행하는 기능 구현
 - 목표 2: PYQT5를 사용하여 Controller기능을 GUI 환경에서 제공
