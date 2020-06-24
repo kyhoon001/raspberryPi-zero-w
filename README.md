@@ -13,7 +13,13 @@
 
 ### RC-Car
 
-![rc-car](img/car.jpg)
+
+
+
+
+<img src="/img/car.jpg" width="400" height="300">
+
+
 
 - 목표 1: ServoMotor를 제어하여 왼쪽, 오른쪽으로 바퀴 방향 바꾸는 기능 구현
 - 목표 2: DcMotor를 제어하여 주어진 시간만큼 직진, 후진하는 기능 구현
@@ -22,9 +28,13 @@
 
 ### controller
 
-![01](img/controller.jpg)
 
-![02](img/KakaoTalk_20200616_193436493_02.jpg)
+
+
+
+<img src="/img/controller.jpg" width="400" height="300"><img src="img/KakaoTalk_20200616_193436493_02.jpg" width="400" height="300">
+
+
 
 ![03](img/UI.png)
 
