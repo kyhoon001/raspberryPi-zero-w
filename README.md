@@ -11,20 +11,50 @@
 
 ## 프로젝트 목표
 
+### RC-Car
+
+![rc-car](img\car.jpg)
+
 - 목표 1: ServoMotor를 제어하여 왼쪽, 오른쪽으로 바퀴 방향 바꾸는 기능 구현
 - 목표 2: DcMotor를 제어하여 주어진 시간만큼 직진, 후진하는 기능 구현
-- 목표 3: Controller에서 보낸 명령을 RC-Car에서 실시간으로 받아 수행하는 기능 구현
-- 목표 4: PYQT5를 사용하여 Controller기능을 GUI 환경에서 제공
-- 목표 5: SenseHat을 활용하여 측정한 데이터들을 실시간으로 DB에 전송, 저장하는 기능 구현
+
+
+
+### controller
+
+![01](img\controller.jpg)
+
+![02](img\KakaoTalk_20200616_193436493_02.jpg)
+
+![03](img\UI.png)
+
+- 목표 1: Controller에서 보낸 명령을 RC-Car에서 실시간으로 받아 수행하는 기능 구현
+- 목표 2: PYQT5를 사용하여 Controller기능을 GUI 환경에서 제공
+- 목표 3: SenseHat을 활용하여 측정한 데이터들을 실시간으로 DB에 전송, 저장하는 기능 구현
+- *목표4*: Timer를 추가하여 특정 시간만큼 구동할 수 있게 하는 명령 추가하였음.
+
+
+
+### WEB (추가예정)
+
+
 
 
 
 ## 활용 기술
 
+![도식도](img\simple.png)
+
 - i2c 통신을 활용하여 RaspberryPi Zero와 MotorHAT 을 연결하고, 라이브러리를 활용하여 모터를 제어
 - PyQt5를 활용하여 RC-Car 제어를 위한 GUI 환경 구성
 - AWS의 EC2 서버, MySQL을 활용하여 자동차 이동 log와 센서로 측정한 데이터들을 저장할 수 있는 DB 구축 및 Controller와 RC-Car의 상호작용 구현
 - QTSql을 활용하여 SenseHAT에서 측정한 데이터들을 DB에 저장.
+
+
+
+
+
+
 
 
 
