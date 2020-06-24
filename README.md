@@ -43,7 +43,7 @@
 
 ## 활용 기술
 
-![도식도](img\simple.png)
+![도식도](img/simple.png)
 
 - i2c 통신을 활용하여 RaspberryPi Zero와 MotorHAT 을 연결하고, 라이브러리를 활용하여 모터를 제어
 - PyQt5를 활용하여 RC-Car 제어를 위한 GUI 환경 구성
